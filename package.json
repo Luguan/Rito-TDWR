@@ -1,0 +1,19 @@
+{
+  "name": "rito-tdwr",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Luguan/Rito-TDWR.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Luguan/Rito-TDWR/issues"
+  },
+  "homepage": "https://github.com/Luguan/Rito-TDWR#readme"
+}
