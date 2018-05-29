@@ -1,1 +1,3 @@
-alert("hej");
+import index from ./index.vue
+
+alert("hejsan")
