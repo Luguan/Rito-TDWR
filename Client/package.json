@@ -15,5 +15,12 @@
   "bugs": {
     "url": "https://github.com/Luguan/Rito-TDWR/issues"
   },
-  "homepage": "https://github.com/Luguan/Rito-TDWR#readme"
+  "homepage": "https://github.com/Luguan/Rito-TDWR#readme",
+  "devDependencies": {
+    "webpack": "^4.10.1",
+    "webpack-cli": "^2.1.4"
+  },
+  "dependencies": {
+    "html-webpack-plugin": "^3.2.0"
+  }
 }
