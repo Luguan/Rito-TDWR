@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/Luguan/Rito-TDWR#readme",
   "devDependencies": {
+    "babel-loader": "^7.1.4",
     "css-loader": "^0.28.11",
     "vue-loader": "^15.2.2",
     "vue-template-compiler": "^2.5.16",
@@ -26,6 +27,7 @@
     "webpack-dev-server": "^3.1.4"
   },
   "dependencies": {
-    "html-webpack-plugin": "^3.2.0"
+    "html-webpack-plugin": "^3.2.0",
+    "vue": "^2.5.16"
   }
 }
