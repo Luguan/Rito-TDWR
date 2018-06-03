@@ -2,8 +2,8 @@
   <div class="example">
     <br>
     <form @submit="submit">
-      <input type = "text" placeholder="summoner name" v-model="Username"></input>
-      <select v-model="Region">
+      <input type="text" placeholder="summoner name" v-model="username"></input>
+      <select v-model="region">
         <option value="EUW">EUW</option>
         <option value="EUNE">EUNE</option>
         <option value="BR">BR</option>
@@ -27,13 +27,15 @@
 export default {
   data () {
     return {
-      Username: null,
-      Region: 'EUW',
+      username: '',
+      region: 'EUW',
     }
   },
   methods: {
     submit:function(e) {
-      console.log(this.$router);
+      e.preventDefault();
+      const {username, region} = this;
+      this.$router.push(`/Region/${region}/Summoner/${username}`);
     }
   }
 }
