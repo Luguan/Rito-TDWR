@@ -9,8 +9,12 @@ Vue.use(VueRouter)
 Vue.config.productionTip = false;
 
 const router = new VueRouter({
-  path: '/Index', component: Index,
-  path: '/Region/:region/Summoner/:summoner_id', component: Summoner
+  routes: [
+  // dynamic segments start with a colon
+  {path: '/', component: Index},
+  {path: '/Region/:region/Summoner/:summoner_id', component: Summoner}
+  ],
+  mode: "history"
 });
 
 let appDiv = document.querySelector('#app');
